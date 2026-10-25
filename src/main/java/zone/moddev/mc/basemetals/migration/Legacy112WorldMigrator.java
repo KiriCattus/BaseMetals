@@ -143,7 +143,7 @@ public final class Legacy112WorldMigrator {
 
     /**
      * The integrated server reads the root Player tag before
-     * {@link net.neoforged.event.server.ServerAboutToStartEvent}. Reload
+     * {@link net.neoforged.neoforge.event.server.ServerAboutToStartEvent}. Reload
      * that one tag from the corrected level.dat so the first upgraded
      * single-player session receives the same item migration as playerdata.
      */
